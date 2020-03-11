@@ -2,34 +2,34 @@ const Telegraf = require('telegraf')
 require('dotenv').config()
 
 const arrayChistes = [{
-        "pregunta": "¿Por que los de lepe tiran a los niños al pozo?",
+        "pregunta": "¿Por que los de Lepe tiran a los niños al pozo?",
         "respuesta": "Porque en el fondo son buenos"
     }, {
-        "pregunta": "¿Por qué los del epe no entran a la cocina?",
+        "pregunta": "¿Por qué los de Lepe no entran a la cocina?",
         "respuesta": "Porque hay un bote que pone sal"
     }, {
         "pregunta": "¿Por qué los de lepe ponen un condón en la ventana?",
         "respuesta": "Para que no entre polvo"
     }, {
-        "pregunta": "¿Por qué los del lepe no salen de la comunidad?",
+        "pregunta": "¿Por qué los del Lepe no salen de la comunidad?",
         "respuesta": "Porque hay un cartel que pone Huelva"
     }, {
-        "pregunta": "¿Para qué los del epe ponen la tele al revés?",
+        "pregunta": "¿Para qué los de Lepe ponen la tele al revés?",
         "respuesta": "Para verle las bragas a la presentadora"
     }, {
         "pregunta": "¿Para que los de lepe ponen cinco televisiones?",
         "respuesta": "Para ver tele cinco"
     }, {
-        "pregunta": "¿Para que los del epe ponen tres antenas en la televisión?",
+        "pregunta": "¿Para que los de Lepe ponen tres antenas en la televisión?",
         "respuesta": "Para ver antena tres"
     }, {
-        "pregunta": "¿Porque las mujeres de lepe beben agua del mar?",
+        "pregunta": "¿Porque las mujeres de Lepe beben agua del mar?",
         "respuesta": "Para ser mas resaladas"
     }, {
-        "pregunta": "Sabes porque los de lepe plantan los naranjos de 3 en 3?",
+        "pregunta": "Sabes porque los de Lepe plantan los naranjos de 3 en 3?",
         "respuesta": "Para hacer tri-naranjus"
     }, {
-        "pregunta": "Sabes porque los de lepe llevan una bañera encima de la ambulancia?",
+        "pregunta": "Sabes porque los de Lepe llevan una bañera encima de la ambulancia?",
         "respuesta": "Para llevar la sirena"
     }, {
         "pregunta": "Sabes porque los de lepe se tiran un pedo antes de salir de casa?",
@@ -50,8 +50,8 @@ const arrayChistes = [{
         "pregunta": "Sabes porque los de lepe ponen ponen la television en el congelador?",
         "respuesta": "Para congelar la imagen "
     }, {
-        "pregunta": "Sabes porque los de lepe ponen una pera encima de la television al lado de la antena? ",
-        "respuesta": "Para tener una antena perabólica (Beatriz Torres)"
+        "pregunta": "Sabes porque los de Lepe ponen una pera encima de la television al lado de la antena? ",
+        "respuesta": "Para tener una antena perabólica"
     },
     {
         "pregunta": "¿Cómo se puede identificar a uno de Lepe en un submarino?",
