@@ -78,8 +78,8 @@ const arrayChistes = [{
 ]
 arrayPregunta = []
 const bot = new Telegraf(process.env.BOT_TOKEN)
-bot.start((ctx) => ctx.reply(`Para recibir un chiste de la excelentisima ciudad de Lepe, envie el comando !lepe`))
-bot.help((ctx) => ctx.reply(`Para recibir un chiste de la excelentisima ciudad de Lepe, envie el comando !lepe`))
+bot.start((ctx) => ctx.reply(`Para recibir un chiste de la excelentisima ciudad de Lepe, envie el comando /lepe`))
+bot.help((ctx) => ctx.reply(`Para recibir un chiste de la excelentisima ciudad de Lepe, envie el comando /lepe`))
 
 bot.command('lepe', (ctx) => {
     const num = arrayChistes[Math.floor(Math.random() * arrayChistes.length)]
