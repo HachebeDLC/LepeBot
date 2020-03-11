@@ -1,0 +1,34 @@
+{
+  "name": "lepebot",
+  "version": "1.0.0",
+  "description": "Bot de chistes de Lepe para Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc",
+    "start:dev": "cross-env NODE_ENV=development node index.js",
+    "test-env": "cross-env NODE_ENV=production echo $NODE_ENV"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HachebeDLC/LepeBot.git"
+  },
+  "keywords": [
+    "lepe",
+    "telegram",
+    "bot"
+  ],
+  "author": "HachebeDLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HachebeDLC/LepeBot/issues"
+  },
+  "homepage": "https://github.com/HachebeDLC/LepeBot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.36.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
